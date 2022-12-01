@@ -1,0 +1,8 @@
+1. npx create-next-app nextjs13-sample --ts --use-npm
+2. experimental: {
+    appDir: true,
+  },
+3. app/page.tsx, delete pages
+4. Layouts 機能は Next.js 13 の目玉機能で、
+複数のページ間でレイアウトおよび内部状態を共有することができます。
+5. レイアウト内部の状態は保存されます。
