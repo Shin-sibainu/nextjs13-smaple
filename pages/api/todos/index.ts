@@ -11,7 +11,7 @@ const todos = [
 ];
 
 export default async (req: NextApiRequest, res: NextApiResponse<Todo[]>) => {
-  await new Promise((resolve) => setTimeout(resolve, 300));
+  await new Promise((resolve) => setTimeout(resolve, 4000));
 
   res.status(200).json(todos);
 };
